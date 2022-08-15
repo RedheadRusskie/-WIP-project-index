@@ -1,0 +1,54 @@
+.wrapper {
+  width: 100%;
+  margin-top: 5em;
+  background: url('../../assets/bg.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 50em;
+  color: white;
+  left: 0;
+  right: 0;
+
+  .container {
+    background-color: rgba(0, 0, 0, 0.63);
+    height: 96%;
+    padding: 1em 8em;
+    animation: fadeIn 1s;
+
+    h2 {
+      color: white;
+      font-size: 4rem;
+      margin-top: 3em;
+    }
+
+    p {
+      font-size: 1.2rem;
+      margin-top: -2em;
+      width: 35em;
+    }
+
+    .hero-btn {
+      font-size: 1.5rem;
+      margin-top: 1em;
+      border: 2px solid #fff;
+      padding: 0.7em;
+      width: fit-content;
+      border-radius: 50px;
+      cursor: pointer;
+    }
+
+    .hero-btn:hover {
+      background-color: #fff;
+      color: var(--sec-color);
+      box-shadow: 0px 0px 10px 2px rgb(255, 255, 255);
+      transition: 0.3s;
+    }
+  }
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}

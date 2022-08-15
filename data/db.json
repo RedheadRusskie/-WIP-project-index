@@ -1,0 +1,32 @@
+{
+  "projects": [
+    {
+      "id": "1",
+      "title": "Project index",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.",
+      "completionStatus": 40,
+      "img": "https://sq1-wordpress-test.s3.us-west-2.amazonaws.com/wp-content/uploads/2019/11/01073214/Farmhouse-home-office-example.jpg"
+    },
+    {
+      "id": "2",
+      "title": "Resume website",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.",
+      "completionStatus": 80,
+      "img": "https://i5.walmartimages.com/asr/0095ca59-53ac-488c-b193-f0f499dc4f6f_1.9ab196dbd9ad9d7c7066cfd601825363.jpeg"
+    },
+    {
+      "id": "3",
+      "title": "Parlour custom site",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.",
+      "completionStatus": 30,
+      "img": "https://i.pinimg.com/736x/ff/68/80/ff68808f4d1149b129b6323d51b9a4fb.jpg"
+    },
+    {
+      "id": "4",
+      "title": "Online cookbook",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.",
+      "completionStatus": 100,
+      "img": "https://i.pinimg.com/564x/5e/fd/d5/5efdd54e2eeafcd022cc89bcbd10e37b.jpg"
+    }
+  ]
+}

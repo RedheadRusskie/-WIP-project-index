@@ -1,0 +1,53 @@
+.add-container {
+  max-width: 1200px;
+  margin: 150px auto 80px auto;
+  -webkit-animation: fadeIn 1s;
+          animation: fadeIn 1s;
+}
+
+.add-container .add {
+  background-color: #fff;
+  padding: 4em;
+  border-radius: 30px;
+  -webkit-box-shadow: 0px 0px 15px -2px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 0px 15px -2px rgba(0, 0, 0, 0.1);
+  display: block;
+}
+
+.add-container .add label {
+  display: block;
+}
+
+.add-container .add label span {
+  display: block;
+  font-size: 1.2rem;
+  color: var(--sec-color);
+}
+
+.add-container .add label input {
+  display: block;
+  margin: 0 auto 1em auto;
+  width: 30em;
+  padding: 0.7em;
+  font-size: 1.2rem;
+  border-radius: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  color: var(--sec-color);
+  border: 1px solid #c7c7c7;
+}
+
+.add-container .add label input:focus {
+  outline: none;
+  background-color: #eeeeee;
+}
+
+.add-container .add .add-btn {
+  display: block;
+  margin: 2em auto 0 auto;
+  width: 9em;
+  font-family: "Barlow", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.1rem;
+}
+/*# sourceMappingURL=Add.css.map */

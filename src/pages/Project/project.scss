@@ -1,0 +1,42 @@
+.project-panel {
+  max-width: 1200px;
+  min-width: 1000px;
+  margin: 150px auto 80px auto;
+  animation: fadeIn 1s;
+
+  .project {
+    padding: 3em;
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 0px 0px 15px -2px rgba(0,0,0,0.10);
+  }
+
+  .project-title {
+    font-size: 2.5rem;
+  }
+
+  .completion {
+    border: 1px solid var(--sec-color);
+    width: 9em;
+    text-align: center;
+    padding: 0.3em;
+    font-size: 1rem;
+    margin-bottom: 2em;
+  }
+
+  .project-container {
+    padding: 1em;
+    display: flex;
+    
+    img {
+      width: 15em;
+      border-radius: 50%;
+      height: 15em;
+    }
+
+    p {
+      margin: auto 2em;
+    }
+  }
+
+}
