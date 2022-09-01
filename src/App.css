@@ -30,6 +30,7 @@ body:before {
   transform: skew(-35deg);
   transform-origin:top;
   z-index: -999;
+  min-height: 130vh;
 }
 
 
