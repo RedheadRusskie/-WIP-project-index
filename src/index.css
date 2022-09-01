@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@200;300;400;700&family=Poppins:wght@300;400;700&display=swap");
+
+:root {
+  --text-color: rgb(37, 37, 37);
+  --sec-color: rgb(80, 80, 80);
+}
+
+.action-btn {
+  color: var(--sec-color) !important;
+  background-color: transparent;
+  border: 2px solid var(--sec-color);
+  border-radius: 30px;
+  padding: 0.4em;
+  text-align: center;
+  width: 5em;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+  margin: 1em;
+}
+
+.action-btn a:-webkit-any-link {
+  text-decoration: none;
+  color: var(--sec-color);
+}
+
+.action-btn a:link {
+  text-decoration: none;
+}
+
+.completion {
+  border: 1px solid var(--sec-color);
+  width: 9em;
+  text-align: center;
+  padding: 0.3em;
+  font-size: 0.7rem;
+  margin-bottom: 2em;
+}
+
+.complete {
+  border: 1px solid rgb(84, 173, 62);;
+  color:  rgb(84, 173, 62);
+  width: 9em;
+  text-align: center;
+  padding: 0.3em;
+  font-size: 0.7rem;
+  margin-bottom: 2em;
+}
+
+.action-btn.btn {
+  text-decoration: none;
+}
+
+.action-btn:hover {
+  background-color: var(--sec-color);
+  color: white;
+  box-shadow: 0px 0px 12px 1px var(--sec-color);
+}
+
+.action-btn:hover a:-webkit-any-link {
+  text-decoration: none;
+  color: #fff;
+}
